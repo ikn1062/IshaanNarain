@@ -9,6 +9,8 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Projects from './components/projects/Projects';
+import { Routes, Route } from 'react-router-dom';
+import Main from './Main';
 
 const App = () => {
   return (
@@ -16,13 +18,12 @@ const App = () => {
     <Header />
     
     <main className='main'>
-      <Home />
-      <About />
-      <Skills />
-      <Experience />
-      {/* <Services /> */}
-      <Projects />
-      <Contact />
+      <Routes>
+        <Route exact path="/projects" element={<Projects/>}>
+        </Route>
+        <Route exact path="/" element={<Main/>}>
+        </Route> 
+      </Routes>
     </main>
     <Footer />
     <ScrollUp />
@@ -31,3 +32,15 @@ const App = () => {
 }
 
 export default App;
+
+/*
+        <Route path="/">
+          <div>
+            <Home />
+            <About />
+            <Skills />
+            <Experience />
+            <Projects />
+            <Contact />
+          </div>
+        </Route> */
