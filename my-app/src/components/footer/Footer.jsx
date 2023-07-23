@@ -7,14 +7,14 @@ const Footer = () => {
             <div className="footer__container container">
                 <h1 className="footer__title">Ishaan Narain</h1>
 
-                <ul className="footer__list">
+                {/* <ul className="footer__list">
                     <li>
                         <a href="#about" className="footer__link">About</a>
                     </li>
                     <li>
                         <a href="#portfolio" className="footer__link">Projects</a>
                     </li>
-                </ul>
+                </ul> */}
 
                 <div className="footer__social">
                     <a href="https://github.com" className="footer__social-link" target="_blank">
@@ -22,6 +22,9 @@ const Footer = () => {
                     </a>
                     <a href="https://www.linkedin.com/feed/" className="footer__social-link" target="_blank">
                         <i class="bx bxl-linkedin"></i>
+                    </a>
+                    <a href="mailto:ishaannarain2022@u.northwestern.edu" className="footer__social-link" target="_blank">
+                        <i class="bx bx-envelope"></i>
                     </a>
                 </div>
 

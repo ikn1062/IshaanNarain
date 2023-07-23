@@ -9,6 +9,9 @@ const Social = () => {
             <a href="https://www.linkedin.com/feed/" className="home__social-icon" target="_blank">
                 <i class="uil uil-linkedin-alt"></i>
             </a>
+            <a href="mailto:ishaannarain2022@u.northwestern.edu" className="home__social-icon" target="_blank">
+                <i class="uil uil-envelope"></i>
+            </a>
         </div>
     )
 }
