@@ -17,10 +17,10 @@ const Footer = () => {
                 </ul> */}
 
                 <div className="footer__social">
-                    <a href="https://github.com" className="footer__social-link" target="_blank">
+                    <a href="https://github.com/ikn1062" className="footer__social-link" target="_blank">
                         <i class="bx bxl-github"></i>
                     </a>
-                    <a href="https://www.linkedin.com/feed/" className="footer__social-link" target="_blank">
+                    <a href="https://www.linkedin.com/in/ishaan-k-narain/" className="footer__social-link" target="_blank">
                         <i class="bx bxl-linkedin"></i>
                     </a>
                     <a href="mailto:ishaannarain2022@u.northwestern.edu" className="footer__social-link" target="_blank">
