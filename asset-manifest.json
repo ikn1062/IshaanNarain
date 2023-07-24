@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/IshaanNarain/static/css/main.0bd485bb.css",
-    "main.js": "/IshaanNarain/static/js/main.aa703089.js",
+    "main.js": "/IshaanNarain/static/js/main.655bff84.js",
     "static/media/os-1.jpg": "/IshaanNarain/static/media/os-1.ed267714c62be17d372b.jpg",
     "static/media/nusolar-1.jpg": "/IshaanNarain/static/media/nusolar-1.827f936ebc08845492cb.jpg",
     "static/media/nusolar-2.jpg": "/IshaanNarain/static/media/nusolar-2.ad8ca36f0104e2d27e64.jpg",
@@ -11,10 +11,10 @@
     "static/media/haptic-2.jpg": "/IshaanNarain/static/media/haptic-2.71e015c488760b9922f3.jpg",
     "static/media/ishaan.jpg": "/IshaanNarain/static/media/ishaan.2563fe15c87e97b52617.jpg",
     "static/media/compiler-1.jpg": "/IshaanNarain/static/media/compiler-1.3e4fc971ce7398c72317.jpg",
-    "static/media/compiler-2.jpg": "/IshaanNarain/static/media/compiler-2.3e4fc971ce7398c72317.jpg",
     "static/media/ergodic-1.jpg": "/IshaanNarain/static/media/ergodic-1.43d397d71ca0af84975b.jpg",
     "static/media/ishaan-narain-resume.pdf": "/IshaanNarain/static/media/ishaan-narain-resume.47faa0cea38a36af9a70.pdf",
     "static/media/slam-2.jpg": "/IshaanNarain/static/media/slam-2.3df4a6e400668aded631.jpg",
+    "static/media/compiler-2.jpg": "/IshaanNarain/static/media/compiler-2.d7797ac7bbbeb0e1c258.jpg",
     "static/media/mmap-2.jpg": "/IshaanNarain/static/media/mmap-2.1a628b2100e530dd7aef.jpg",
     "static/media/ergodic-2.jpg": "/IshaanNarain/static/media/ergodic-2.6f1ae08cef789f3d1bae.jpg",
     "static/media/mmap-1.jpg": "/IshaanNarain/static/media/mmap-1.009bf21586511a497f10.jpg",
@@ -24,10 +24,10 @@
     "static/media/ishaan-4.jpg": "/IshaanNarain/static/media/ishaan-4.0ce0ed22f7a49c4fe70d.jpg",
     "index.html": "/IshaanNarain/index.html",
     "main.0bd485bb.css.map": "/IshaanNarain/static/css/main.0bd485bb.css.map",
-    "main.aa703089.js.map": "/IshaanNarain/static/js/main.aa703089.js.map"
+    "main.655bff84.js.map": "/IshaanNarain/static/js/main.655bff84.js.map"
   },
   "entrypoints": [
     "static/css/main.0bd485bb.css",
-    "static/js/main.aa703089.js"
+    "static/js/main.655bff84.js"
   ]
 }
