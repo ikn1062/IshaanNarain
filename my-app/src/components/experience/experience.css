@@ -9,29 +9,58 @@
     margin-bottom: var(--mb-2);
 }
 
-.experience__button {
+/* .experience__button {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     color: var(--title-color);
     margin: 0 var(--mb-1-5);
     cursor: pointer; 
-    /* font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
-    margin: 0 var(--mb-1-5); 
-    display: inline-block;
-    cursor: pointer;
-
-    background-color: var(--title-color);
-    color: var(--container-color);
-    padding: 0.5rem 2rem;
-    border-radius: 1rem; */
 }
 
 .experience__button:hover {
     color: var(--title-color-dark);
     font-weight: var(--font-semi-bold);
-    /* background-color: var(--title-color-dark); */
+} */
+
+
+
+.experience__button {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    align-items: center;
+    display: inline-flex;
+    border-radius: 1rem;
+    margin: 0 var(--mb-1-5);
+
+    color: var(--title-color);
+    position: relative;
 }
+
+.experience__button-icon {
+    color: var(--title-color); 
+
+}
+  
+.experience__button::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    left: 0px;
+    bottom: 8px;
+    width: 75%;
+    height: 20%;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+}
+
+.experience__button:hover::before {
+    height: 100%;
+    width: 120%
+} 
 
 .exp__button {
     color: var(--text-color);
@@ -56,12 +85,14 @@
 }
 
 .experience__icon {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-right: var(--mb-0-25);
 }
 
-.experience__active {
-    color: var(--title-color-dark);
+.experience__active::before {
+    /* color: var(--title-color-dark); */
+    height: 100%;
+    width: 120%;
     font-weight: var(--font-semi-bold);
     /* background-color: var(--title-color-dark); */
 }
@@ -182,7 +213,11 @@
 .exp__modal-icon {
     color: var(--title-color);
     font-size: 1.1rem;
-}
+    float:left;
+    padding-right: 0.2rem;
+    line-height: 1.22;
+    padding-bottom: 2rem;
+ }
 
 .exp__modal-info {
     font-size: var(--small-font-size);

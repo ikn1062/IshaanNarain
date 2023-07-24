@@ -24,15 +24,15 @@ const Experience = () => {
                 <div className={toggleState === 1 ? "experience__button experience__active button--flex" : "experience__button button--flex"}
                     onClick={() => toggleTab(1)}
                 >
-                    <i className="uil uil-graduation-cap experience__icon"></i> 
                     Education
+                    <i className="uil uil-graduation-cap experience__icon"></i> 
                 </div>
 
                 <div className={toggleState === 2 ? "experience__button experience__active button--flex" : "experience__button button--flex"}
                     onClick={() => toggleTab(2)}
                 >
-                    <i className="uil uil-briefcase-alt experience__icon"></i>
                     Experience
+                    <i className="uil uil-briefcase-alt experience__icon"></i>
                 </div>
             </div>
 
@@ -110,23 +110,27 @@ const Experience = () => {
                             <div className="exp__modal-content">
                                 <i onClick={() => toggleTabExp(0)} className="uil uil-times exp__modal-close"></i>
 
-                                <h3 className="exp__modal-title">Title 1 Condensed</h3>
-                                <p className="exp__modal-description">So a quick description goes here</p>
+                                <h3 className="exp__modal-title">Northwestern University Prescience Lab</h3>
+                                <p className="exp__modal-description">Graduate Systems Researcher</p>
 
                                 <ul className="exp__modal-exp grid">
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">A paragraph goes here</p>
+                                        <p className="exp__modal-info">Prototyping custom memory management Linux kernel module with theoretical 230% acceleration of databases</p>
                                     </li>
 
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">A paragraph goes here</p>
+                                        <p className="exp__modal-info">Resolving module memory issues with Kernel Probes, FTrace, and Kernel GDB</p>
                                     </li>
 
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">A paragraph goes here</p>
+                                        <p className="exp__modal-info">Porting floating-point virtual machine written in C from Linux 3.x to 5.19 and testing on Ubuntu QEMU </p>
+                                    </li>
+                                    <li className="exp__modal-exp">
+                                        <i className="uil uil-check-circle exp__modal-icon"></i>
+                                        <p className="exp__modal-info">Researching and prototyping numerical and exception fuzzing tools to evaluate accuracy of floating point</p>
                                     </li>
                                 </ul>
                             </div>
@@ -156,23 +160,27 @@ const Experience = () => {
                             <div className="exp__modal-content">
                                 <i onClick={() => toggleTabExp(0)} className="uil uil-times exp__modal-close"></i>
 
-                                <h3 className="exp__modal-title">Title 1 Condensed</h3>
-                                <p className="exp__modal-description">So a quick description goes here</p>
+                                <h3 className="exp__modal-title">NU Center For Robotics</h3>
+                                <p className="exp__modal-description">Independent Researcher</p>
 
                                 <ul className="exp__modal-exp grid">
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">A paragraph goes here</p>
+                                        <p className="exp__modal-info">Creating statistical reinforcement learning C++ library with optimal control for non-linear robotics applying ergodic theory</p>
                                     </li>
 
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">A paragraph goes here</p>
+                                        <p className="exp__modal-info">Proved demonstration-learning algorithm using 8 positive and 6 negative sample gaussians in dynamic ROS2 cartpole simulator</p>
                                     </li>
 
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">A paragraph goes here</p>
+                                        <p className="exp__modal-info">Programmed generalized dynamics and control interface using Jacobian linearization of state with C++20 template class</p>
+                                    </li>
+                                    <li className="exp__modal-exp">
+                                        <i className="uil uil-check-circle exp__modal-icon"></i>
+                                        <p className="exp__modal-info">Derived mathematics for optimal control via gradient descent by solving Riccati equations from derivative of objective function</p>
                                     </li>
                                 </ul>
                             </div>
@@ -201,23 +209,28 @@ const Experience = () => {
                             <div className="exp__modal-content">
                                 <i onClick={() => toggleTabExp(0)} className="uil uil-times exp__modal-close"></i>
 
-                                <h3 className="exp__modal-title">Title 1 Condensed</h3>
-                                <p className="exp__modal-description">So a quick description goes here</p>
+                                <h3 className="exp__modal-title">NU Center For Deep Learning</h3>
+                                <p className="exp__modal-description">Machine Learning & MLOps Researcher</p>
 
                                 <ul className="exp__modal-exp grid">
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">A paragraph goes here</p>
+                                        <p className="exp__modal-info">Programmed and presented automated statistical stress-testing-module for Artificial Neural Networks to Allstate, TransUnion, and NVIDIA</p>
                                     </li>
 
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">A paragraph goes here</p>
+                                        <p className="exp__modal-info">Developed stateless full-stack app to monitor of over 20 ML KPIs, leveraging TensorFlow, MongoDB, Docker, and Kubernetes </p>
                                     </li>
 
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">A paragraph goes here</p>
+                                        <p className="exp__modal-info">Decreased retraining time by 24% by dynamically re-optimizing weights using online Multi-Arm Bandit memory replay algorithm </p>
+                                    </li>
+
+                                    <li className="exp__modal-exp">
+                                        <i className="uil uil-check-circle exp__modal-icon"></i>
+                                        <p className="exp__modal-info">Maintained robust code through 100% documentation, try-except error handling, git version control, and pull request reviews </p>
                                     </li>
                                 </ul>
                             </div>
@@ -244,27 +257,27 @@ const Experience = () => {
                             </div>
                         </div>
 
-                        <div className={toggleStateExp === 3 ? "exp__modal active-modal" : "exp__modal"}>
+                        <div className={toggleStateExp === 4 ? "exp__modal active-modal" : "exp__modal"}>
                             <div className="exp__modal-content">
                                 <i onClick={() => toggleTabExp(0)} className="uil uil-times exp__modal-close"></i>
 
-                                <h3 className="exp__modal-title">Title 1 Condensed</h3>
-                                <p className="exp__modal-description">So a quick description goes here</p>
+                                <h3 className="exp__modal-title">Tesla - Electrical Systems</h3>
+                                <p className="exp__modal-description">Software/Firmware Engineering Intern</p>
 
                                 <ul className="exp__modal-exp grid">
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">A paragraph goes here</p>
+                                        <p className="exp__modal-info">Developed and deployed software and firmware for 16 vehicle display variants by engineering and debugging features in C</p>
                                     </li>
 
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">A paragraph goes here</p>
+                                        <p className="exp__modal-info">Expanded coverage and scalability of testing framework for 300 firmware tests by refactoring 10,000 lines of legacy Python code</p>
                                     </li>
 
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">A paragraph goes here</p>
+                                        <p className="exp__modal-info">Resolved 3 display consumer issues by analyzing device registers on I2C and compiling 1000-hour data with multithreaded scripts</p>
                                     </li>
                                 </ul>
                             </div>
@@ -274,7 +287,7 @@ const Experience = () => {
 
                     <div className="experience__data">
                         <div>
-                            <h3 className="experience__title">InfernoGuard (Startup) </h3>
+                            <h3 className="experience__title">InfernoGuard (NU Startup) </h3>
                             <span className="experience__subtitle">Firmware / Machine Learning Engineer </span>
                             <span className="exp__button" onClick={() => toggleTabExp(5)}>View More
                                 <i className="uil uil-arrow-right exp__button-icon"></i>
@@ -293,18 +306,18 @@ const Experience = () => {
                             <div className="exp__modal-content">
                                 <i onClick={() => toggleTabExp(0)} className="uil uil-times exp__modal-close"></i>
 
-                                <h3 className="exp__modal-title">Title 1 Condensed</h3>
-                                <p className="exp__modal-description">So a quick description goes here</p>
+                                <h3 className="exp__modal-title">InfernoGuard (NU Startup)</h3>
+                                <p className="exp__modal-description">Firmware / Machine Learning Engineer</p>
 
                                 <ul className="exp__modal-exp grid">
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">A paragraph goes here</p>
+                                        <p className="exp__modal-info">Spearheaded fire risk classifier and machine learning pipeline for 18 geo-features, achieving 97% accuracy with gradient-boosting tree algorithm</p>
                                     </li>
 
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">A paragraph goes here</p>
+                                        <p className="exp__modal-info">Automated pipeline to fetch and clean 700GB of image data to classify risk of properties using REST APIs, NumPy, and Pandas </p>
                                     </li>
 
                                     <li className="exp__modal-exp">
@@ -338,23 +351,23 @@ const Experience = () => {
                             <div className="exp__modal-content">
                                 <i onClick={() => toggleTabExp(0)} className="uil uil-times exp__modal-close"></i>
 
-                                <h3 className="exp__modal-title">Title 6 Condensed</h3>
-                                <p className="exp__modal-description">So a quick description goes here</p>
+                                <h3 className="exp__modal-title">Tesla - Battery Manufacturing</h3>
+                                <p className="exp__modal-description">Technical Program Manager Intern</p>
 
                                 <ul className="exp__modal-exp grid">
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">A paragraph goes here</p>
+                                        <p className="exp__modal-info">Managed installation, commission, and 0-60 ramp of $65MM 47-station manufacturing line for global vehicle battery pack product </p>
                                     </li>
 
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">A paragraph goes here</p>
+                                        <p className="exp__modal-info">Grew production capacity from 0 to 60 vehicles per week by identifying manufacturing equipment issues with SQL data analysis</p>
                                     </li>
 
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">A paragraph goes here</p>
+                                        <p className="exp__modal-info">Launched $1MM R&D line within 4 weeks by creating project plan and coordinating execution between team of 26 engineers</p>
                                     </li>
                                 </ul>
                             </div>

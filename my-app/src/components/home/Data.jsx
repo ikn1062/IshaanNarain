@@ -9,9 +9,9 @@ const Data = () => {
         <p className="home__description">
           I'm an aspiring software engineer studying Computer Science and Mechanical Engineering at Northwestern University. I love working in the intersection of Math, Machine Learning, and Computer Science.
           <br/><br/>
-          Graduate Researcher @ NU Prescience Lab.
+          Graduate Researcher @ NU <a href="http://www.presciencelab.org/" className="home__description-link">Prescience Lab</a>.
           <br/>
-          Ex Software/Firmware Intern @ Tesla.
+          Ex Software/Firmware Intern @ <a href="https://www.tesla.com/" className="home__description-link">Tesla</a>.
         </p>
         
 
