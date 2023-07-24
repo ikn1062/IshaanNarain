@@ -357,12 +357,12 @@ const Experience = () => {
                                 <ul className="exp__modal-exp grid">
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">Managed installation, commission, and 0-60 ramp of $65MM 47-station manufacturing line for global vehicle battery pack product </p>
+                                        <p className="exp__modal-info">Managed installation, commission, and 0-600 ramp of $65MM 47-station manufacturing line for global vehicle battery pack product </p>
                                     </li>
 
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">Grew production capacity from 0 to 60 vehicles per week by identifying manufacturing equipment issues with SQL data analysis</p>
+                                        <p className="exp__modal-info">Grew production capacity from 0 to 600 vehicles per week by identifying manufacturing equipment issues with SQL data analysis</p>
                                     </li>
 
                                     <li className="exp__modal-exp">
