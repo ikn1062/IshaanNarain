@@ -69,7 +69,7 @@ export const ProjectsData = [
         title: 'Linux Custom Memory Management - Ongoing',
         tags: 'C, x86, Linux Kernel, GDB, QEMU, Memory',
         category: 'Computer Systems',
-        link: "/#projects-id",
+        link: "/IshaanNarain/#projects-id",
     }, 
     {
         id: 7,
@@ -78,7 +78,7 @@ export const ProjectsData = [
         title: 'Compiler Construction Projects - Ongoing',
         tags: 'C, C++, Compiler, SQL',
         category: 'Computer Systems',        
-        link: "/#projects-id",
+        link: "/IshaanNarain/#projects-id",
     }, 
     {
         id: 8,
@@ -87,7 +87,7 @@ export const ProjectsData = [
         title: 'Mini Operating System - Ongoing',
         tags: 'C, i386-elf, GCC, GDB, stdlib',
         category: 'Computer Systems',        
-        link: "/#projects-id",
+        link: "/IshaanNarain/#projects-id",
     },  
 ]
 

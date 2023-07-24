@@ -15,7 +15,7 @@ const Data = () => {
         </p>
         
 
-        <a href="#contact" className="home__contact-link">
+        <a href="/IshaanNarain/#contact" className="home__contact-link">
             Say Hello
             <svg
                   class="home__contact-link-icon"
