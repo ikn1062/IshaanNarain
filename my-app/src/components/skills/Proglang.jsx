@@ -14,7 +14,7 @@ const Proglang = () => {
 
                     <div>
                         <h3 className="skills__name">C++</h3>
-                        <span className="skills__level">Eigen</span>
+                        <span className="skills__level">STL, MPI, Eigen, Catch2</span>
                     </div>
                     </div>
 
@@ -23,7 +23,7 @@ const Proglang = () => {
 
                     <div>
                         <h3 className="skills__name">C</h3>
-                        <span className="skills__level">Kernel</span>
+                        <span className="skills__level">kernel.h</span>
                     </div>
                     </div>
 
@@ -44,7 +44,7 @@ const Proglang = () => {
 
                     <div>
                         <h3 className="skills__name">Python3</h3>
-                        <span className="skills__level">PyTorch</span>
+                        <span className="skills__level">PyTorch, Numpy, sklearn, Matplotlib, OpenCV</span>
                     </div>
                     </div>
 
@@ -53,7 +53,7 @@ const Proglang = () => {
 
                     <div>
                         <h3 className="skills__name">Matlab</h3>
-                        <span className="skills__level"></span>
+                        <span className="skills__level">Simulink</span>
                     </div>
                     </div>
 

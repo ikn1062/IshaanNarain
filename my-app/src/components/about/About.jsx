@@ -8,15 +8,23 @@ const About = () => {
     return (
         <section className="about section" id="about">
             <h2 className="section__title">About Me</h2>
-            <span className="section__subtitle">My Introduction</span>
+            <span className="section__subtitle">I love engineering because I love solving difficult problems</span>
 
             <div className="about__container container grid">
                 <img src={AboutImg} alt="Ishaan Narain Profile Image" className="about__img" />
                 <div className="about__data">
-                    <Info />
+                    {/* <Info /> */}
 
                     <p className="about__description">
-                        *INSERT DESCRIPTION HERE*
+                        After 3 years studying mechanical engineering, with a 6-month manufacturing TPM internship at Tesla, and being an engineering lead at the Northwestern University Solar Car team, I decided to take an MS in Computer Science.
+                        <br/><br/>
+                        Since then, I worked on several machine learning, robotics, and computer systems projects. I developed a statistical stress-testing module for neural networks and presented it to NVIDIA at the Center for Deep Learning, as well as created a geographical fire-risk classifier at a startup. I also completed a software/firmware internship at Tesla.
+                        <br/><br/>
+                        Currently, I'm a Graduate Computer Systems Researcher at NU's Prescience Lab, where I'm working on software which accelerates database and HPC applications, compilers which parallelize code, and modules that can assess risk in floating point computation. 
+                    
+                        I'm also developing a statistical reinforcement learning and control library for autonomous robotics
+                        <br/><br/>
+                        I am currently looking for full time opportunities starting Fall 2023 to Summer 2024.
                     </p>
 
                     <a download="" href={CV} className="button button--flex">Download Resume

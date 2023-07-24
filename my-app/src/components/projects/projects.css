@@ -61,11 +61,16 @@
 .project__title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    margin-bottom: (--mb-0-5);
 }
 
 .project__card:hover .project__title {
     font-weight: var(--font-semi-bold); 
+}
+
+.project__tags {
+    color: var(--text-color);
+    font-size: var(--small-font-size); 
+    margin-bottom: (--mb-1-0);
 }
 
 .project__button {
@@ -99,7 +104,7 @@
         padding: 1rem;
     }
 
-    .project__img, {
+    .project__img {
         margin-bottom: 0.75rem;
     }
 

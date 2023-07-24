@@ -12,6 +12,7 @@ export const ProjectsData = [
         image: Img1,
         image2: Img12,
         title: 'Title 1',
+        tags: 'C++, ROS2',
         category: 'Robotics, Machine Learning'
     },
     {
@@ -19,6 +20,7 @@ export const ProjectsData = [
         image: Img2,
         image2: Img12,
         title: 'Title 2',
+        tags: 'C++, ROS2',
         category: 'Machine Learning'
     },
     {
@@ -26,6 +28,7 @@ export const ProjectsData = [
         image: Img3,
         image2: Img12,
         title: 'Title 3',
+        tags: 'C++, ROS2',
         category: 'Machine Learning'
     },
     {
@@ -33,6 +36,7 @@ export const ProjectsData = [
         image: Img4,
         image2: Img12,
         title: 'Title 4',
+        tags: 'C++, ROS2',
         category: 'Computer Systems'
     },
     {
@@ -40,6 +44,7 @@ export const ProjectsData = [
         image: Img5,
         image2: Img12,
         title: 'Title 5',
+        tags: 'C++, ROS2',
         category: 'Robotics'
     }, 
 ]

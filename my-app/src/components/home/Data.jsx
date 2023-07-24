@@ -6,7 +6,14 @@ const Data = () => {
             <h1 className="home__title">Ishaan Narain
             </h1>
         <h3 className="home__subtitle">Aspiring Software Engineer</h3>
-        <p className="home__description">My name is Ishaan Narain</p>
+        <p className="home__description">
+          I'm an aspiring software engineer studying Computer Science and Mechanical Engineering at Northwestern University. I love working in the intersection of Math, Machine Learning, and Computer Science.
+          <br/><br/>
+          Graduate Researcher @ NU Prescience Lab.
+          <br/>
+          Ex Software/Firmware Intern @ Tesla.
+        </p>
+        
 
         <a href="#contact" className="home__contact-link">
             Say Hello
