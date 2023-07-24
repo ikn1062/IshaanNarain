@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/IshaanNarain/static/css/main.0bd485bb.css",
-    "main.js": "/IshaanNarain/static/js/main.3f7d6ed5.js",
+    "main.js": "/IshaanNarain/static/js/main.665e93c4.js",
     "static/media/os-1.jpg": "/IshaanNarain/static/media/os-1.ed267714c62be17d372b.jpg",
     "static/media/nusolar-1.jpg": "/IshaanNarain/static/media/nusolar-1.827f936ebc08845492cb.jpg",
     "static/media/nusolar-2.jpg": "/IshaanNarain/static/media/nusolar-2.ad8ca36f0104e2d27e64.jpg",
@@ -24,10 +24,10 @@
     "static/media/ishaan-4.jpg": "/IshaanNarain/static/media/ishaan-4.0ce0ed22f7a49c4fe70d.jpg",
     "index.html": "/IshaanNarain/index.html",
     "main.0bd485bb.css.map": "/IshaanNarain/static/css/main.0bd485bb.css.map",
-    "main.3f7d6ed5.js.map": "/IshaanNarain/static/js/main.3f7d6ed5.js.map"
+    "main.665e93c4.js.map": "/IshaanNarain/static/js/main.665e93c4.js.map"
   },
   "entrypoints": [
     "static/css/main.0bd485bb.css",
-    "static/js/main.3f7d6ed5.js"
+    "static/js/main.665e93c4.js"
   ]
 }
