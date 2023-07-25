@@ -16,8 +16,8 @@ const Experience = () => {
     }
     return (
     <section>
-        <h2 className="section__title">Experience</h2>
-        <span className="section__subtitle">My Personal Journey</span>
+        <h2 className="section__title experience__title-start">Experience</h2>
+        {/* <span className="section__subtitle">My Personal Journey</span> */}
 
         <div className="experience__container container">
             <div className="experience__tabs">
@@ -171,7 +171,7 @@ const Experience = () => {
 
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">Proved demonstration-learning algorithm using 8 positive and 6 negative sample gaussians in dynamic ROS2 cartpole simulator</p>
+                                        <p className="exp__modal-info">Validated demonstration-learning algorithm using 8 positive and 6 negative sample gaussians in dynamic ROS2 cartpole simulator</p>
                                     </li>
 
                                     <li className="exp__modal-exp">
@@ -318,11 +318,6 @@ const Experience = () => {
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
                                         <p className="exp__modal-info">Automated pipeline to fetch and clean 700GB of image data to classify risk of properties using REST APIs, NumPy, and Pandas </p>
-                                    </li>
-
-                                    <li className="exp__modal-exp">
-                                        <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">A paragraph goes here</p>
                                     </li>
                                 </ul>
                             </div>

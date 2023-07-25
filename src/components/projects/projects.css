@@ -6,6 +6,10 @@
     margin-bottom: var(--mb-2);
 }
 
+.projects__title-start {
+    margin-bottom: 4rem;
+}
+
 .projectlist__item {
     color: var(--title-color);
     padding: 0.25rem 0.75rem;

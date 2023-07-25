@@ -9,6 +9,9 @@
     margin-bottom: var(--mb-2);
 }
 
+.experience__title-start {
+    margin-bottom: 4rem;
+}
 /* .experience__button {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);

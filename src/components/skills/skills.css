@@ -11,6 +11,10 @@
     border-radius: 1.25rem;
 }
 
+.skills__title-start {
+    margin-bottom: 4rem;
+}
+
 .skills__title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
