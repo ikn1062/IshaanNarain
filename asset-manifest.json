@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/IshaanNarain/static/css/main.c6d37cef.css",
-    "main.js": "/IshaanNarain/static/js/main.2148ba18.js",
+    "main.js": "/IshaanNarain/static/js/main.e60ebbbb.js",
     "static/media/example.jpg": "/IshaanNarain/static/media/example.274bfbf60180c2225b2e.jpg",
     "static/media/os-1.jpg": "/IshaanNarain/static/media/os-1.ed267714c62be17d372b.jpg",
     "static/media/nusolar-1.jpg": "/IshaanNarain/static/media/nusolar-1.827f936ebc08845492cb.jpg",
@@ -14,7 +14,7 @@
     "static/media/ishaan.jpg": "/IshaanNarain/static/media/ishaan.2563fe15c87e97b52617.jpg",
     "static/media/compiler-1.jpg": "/IshaanNarain/static/media/compiler-1.3e4fc971ce7398c72317.jpg",
     "static/media/ergodic-1.jpg": "/IshaanNarain/static/media/ergodic-1.43d397d71ca0af84975b.jpg",
-    "static/media/ishaan-narain-resume.pdf": "/IshaanNarain/static/media/ishaan-narain-resume.47faa0cea38a36af9a70.pdf",
+    "static/media/ishaan-narain-resume.pdf": "/IshaanNarain/static/media/ishaan-narain-resume.947b48b4287b108d6455.pdf",
     "static/media/slam-2.jpg": "/IshaanNarain/static/media/slam-2.3df4a6e400668aded631.jpg",
     "static/media/compiler-2.jpg": "/IshaanNarain/static/media/compiler-2.d7797ac7bbbeb0e1c258.jpg",
     "static/media/ishaan-3.jpg": "/IshaanNarain/static/media/ishaan-3.27a7c7d5b206c5178436.jpg",
@@ -25,10 +25,10 @@
     "static/media/video-2.jpg": "/IshaanNarain/static/media/video-2.d8ce34a1878f8289a2f5.jpg",
     "index.html": "/IshaanNarain/index.html",
     "main.c6d37cef.css.map": "/IshaanNarain/static/css/main.c6d37cef.css.map",
-    "main.2148ba18.js.map": "/IshaanNarain/static/js/main.2148ba18.js.map"
+    "main.e60ebbbb.js.map": "/IshaanNarain/static/js/main.e60ebbbb.js.map"
   },
   "entrypoints": [
     "static/css/main.c6d37cef.css",
-    "static/js/main.2148ba18.js"
+    "static/js/main.e60ebbbb.js"
   ]
 }
