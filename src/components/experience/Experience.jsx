@@ -130,7 +130,7 @@ const Experience = () => {
                                     </li>
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">Researching and prototyping numerical and exception fuzzing tools to evaluate accuracy of floating point</p>
+                                        <p className="exp__modal-info">Researching and prototyping numerical and exception fuzzing tools</p>
                                     </li>
                                 </ul>
                             </div>
