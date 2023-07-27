@@ -7,7 +7,7 @@ const Data = () => {
             </h1>
         <h3 className="home__subtitle">Aspiring Software Engineer</h3>
         <p className="home__description">
-          Aspiring software engineer studying Computer Science and Mechanical Engineering at Northwestern University. Passionate about the intersection of Math, Machine Learning, and Computer Science.
+          Aspiring software engineer studying Computer Science and Mechanical Engineering at Northwestern University. Passionate about the intersection of Math, Machine Learning, and Computer Science. Currently seeking fulltime opportunities starting Fall 2023 - Summer 2024.
           <br/><br/>
           Graduate Researcher @ NU <a href="http://www.presciencelab.org/" className="home__description-link" target="_blank">Prescience Lab</a>.
           <br/>
