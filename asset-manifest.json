@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/IshaanNarain/static/css/main.433bb781.css",
-    "main.js": "/IshaanNarain/static/js/main.1999fb71.js",
+    "main.css": "/IshaanNarain/static/css/main.c6d37cef.css",
+    "main.js": "/IshaanNarain/static/js/main.2148ba18.js",
+    "static/media/example.jpg": "/IshaanNarain/static/media/example.274bfbf60180c2225b2e.jpg",
     "static/media/os-1.jpg": "/IshaanNarain/static/media/os-1.ed267714c62be17d372b.jpg",
     "static/media/nusolar-1.jpg": "/IshaanNarain/static/media/nusolar-1.827f936ebc08845492cb.jpg",
     "static/media/nusolar-2.jpg": "/IshaanNarain/static/media/nusolar-2.ad8ca36f0104e2d27e64.jpg",
@@ -23,11 +24,11 @@
     "static/media/video-1.jpg": "/IshaanNarain/static/media/video-1.ac06c41a9555938d51f0.jpg",
     "static/media/video-2.jpg": "/IshaanNarain/static/media/video-2.d8ce34a1878f8289a2f5.jpg",
     "index.html": "/IshaanNarain/index.html",
-    "main.433bb781.css.map": "/IshaanNarain/static/css/main.433bb781.css.map",
-    "main.1999fb71.js.map": "/IshaanNarain/static/js/main.1999fb71.js.map"
+    "main.c6d37cef.css.map": "/IshaanNarain/static/css/main.c6d37cef.css.map",
+    "main.2148ba18.js.map": "/IshaanNarain/static/js/main.2148ba18.js.map"
   },
   "entrypoints": [
-    "static/css/main.433bb781.css",
-    "static/js/main.1999fb71.js"
+    "static/css/main.c6d37cef.css",
+    "static/js/main.2148ba18.js"
   ]
 }
