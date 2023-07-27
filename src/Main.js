@@ -6,6 +6,7 @@ import Skills from './components/skills/Skills';
 import Experience from './components/experience/Experience';
 import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
+import ScrollUp from './components/scrollup/ScrollUp';
 
 const App2 = () => {
   return (
@@ -17,6 +18,7 @@ const App2 = () => {
         {/* <Services /> */}
         <Projects />
         <Contact />
+        <ScrollUp />
     </div>
   );
 }
