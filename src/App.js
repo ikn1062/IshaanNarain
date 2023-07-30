@@ -28,7 +28,7 @@ const App = () => {
     
     <main className='main'>
       <Routes>
-        <Route exact path="/projects" element={<Projects/>} />
+        <Route exact path="/IshaanNarain/projects" element={<Projects/>} />
         <Route exact path="/" element={<Main/>} />
         <Route exact path="/robotirl" element={<Robotirl/>} />
         <Route exact path="/modernr" element={<ModernR/>} />
