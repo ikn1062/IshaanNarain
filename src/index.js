@@ -10,16 +10,25 @@ import { createHashRouter, RouterProvider } from 'react-router-dom';
 //   // </BrowserRouter>
 // );
 
-const router = createHashRouter([
-  {
-    path: "/*",
-    element: <App />,
-  }
-]);
+// const router = createHashRouter([
+//   {
+//     path: "/*",
+//     element: <App />,
+//   }
+// ]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+// ReactDOM.createRoot(document.getElementById('root')).render(
+//   <React.StrictMode>
+//     <RouterProvider router={router} />
+//   </React.StrictMode>
+// );
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <HashRouter>
+      <App />
+   </HashRouter>
   </React.StrictMode>
 );
 
