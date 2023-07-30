@@ -14,3 +14,42 @@
     height: 100%;
     width: 65%;
 } 
+
+@media screen and (max-width: 992px) {
+    .video__title::before {
+        width: 350px;
+        height: 25%;
+        bottom: 5px;
+    }
+
+    .video__title:hover::before {
+        width: 50%;
+        height: 100%;
+        bottom: 5px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .video__title::before {
+        width: 350px;
+        height: 25%;
+        bottom: 5px;
+    }
+
+    .video__title:hover::before {
+        width: 70%;
+        height: 100%;
+        bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .video__title::before {
+        width: 0px;
+    }
+
+    .video__title:hover::before {
+        width: 0px;
+    }
+}

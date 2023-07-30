@@ -13,4 +13,43 @@
     bottom: 10px;
     height: 100%;
     width: 65%;
-} 
+}
+
+@media screen and (max-width: 992px) {
+    .compiler__title::before {
+        width: 300px;
+        height: 25%;
+        bottom: 5px;
+    }
+
+    .compiler__title:hover::before {
+        width: 50%;
+        height: 100%;
+        bottom: 5px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .compiler__title::before {
+        width: 300px;
+        height: 25%;
+        bottom: 5px;
+    }
+
+    .compiler__title:hover::before {
+        width: 75%;
+        height: 100%;
+        bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .compiler__title::before {
+        width: 0px;
+    }
+
+    .compiler__title:hover::before {
+        width: 0px;
+    }
+}

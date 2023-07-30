@@ -15,15 +15,41 @@
     width: 40%;
 }
 
-.wand__img {
-    width: 800px;
-    margin: 0 8rem;
-    border: 1px solid var(--title-color);
+@media screen and (max-width: 992px) {
+    .wand__title::before {
+        width: 225px;
+        height: 25%;
+        bottom: 5px;
+    }
+
+    .wand__title:hover::before {
+        width: 40%;
+        height: 100%;
+        bottom: 5px;
+    }
 }
 
-@media screen and (max-width: 992px) {
-    .wand__img {
-        width: 500px;
-        /* margin: 0 10rem; */
-    } 
+
+@media screen and (max-width: 768px) {
+    .wand__title::before {
+        width: 225px;
+        height: 25%;
+        bottom: 5px;
+    }
+
+    .wand__title:hover::before {
+        width: 60%;
+        height: 100%;
+        bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .wand__title::before {
+        width: 0px;
+    }
+
+    .wand__title:hover::before {
+        width: 0px;
+    }
 }

@@ -6,7 +6,7 @@ import Img1 from "../../../assets/portfolio/landmark.jpg"
 const Slam = () => {
     return (
         <section className="robotirl section">
-            <div className="prj__container container grid">
+            <div className="prj__container container">
                 <div className="prj__content">
                     <a href="https://github.com/ikn1062/turtlebot-slam/" className="prj__title-link" target="_blank">
                         <h1 className="prj__title slam__title">TurtleBot3 EKF-SLAM
@@ -63,7 +63,7 @@ const Slam = () => {
                     Note: I forgot to reset the intial simulated odometry position in Blue. I am currently working on getting a new video.
                     </p>
                     
-                    <iframe width="720" height="480" className="prj__video-main" allowFullScreen
+                    <iframe className="prj__video-main" allowFullScreen
                         src="https://www.youtube.com/embed/eQ56fAfpJGk">
                     </iframe>
                     
@@ -82,7 +82,7 @@ const Slam = () => {
                             drift from a robot's true locaiton. 
                             </p> 
                         </div>
-                        <iframe width="480" height="360" allowFullScreen
+                        <iframe allowFullScreen className="prj__video-half"
                             src="https://youtube.com/embed/uFGFtILFuvU">
                         </iframe>
                     </div>
@@ -125,7 +125,7 @@ const Slam = () => {
                             Kalman gains are calculated by the expected location of a circular landmark and the actual location. 
                             </p> 
                         </div>
-                        <iframe width="480" height="360" allowFullScreen
+                        <iframe allowFullScreen className="prj__video-half"
                             src="https://youtube.com/embed/QlarJMluz2w">
                         </iframe>
                     </div>

@@ -5,7 +5,7 @@ import "./memory.css"
 const Memory = () => {
     return (
         <section className="robotirl section">
-            <div className="prj__container container grid">
+            <div className="prj__container container">
                 <div className="prj__content">
                     <a href="https://github.com/ikn1062/" className="prj__title-link" target="_blank">
                         <h1 className="prj__title memory__title">Linux Custom Memory Management

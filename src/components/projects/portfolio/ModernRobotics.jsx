@@ -7,7 +7,7 @@ import Img2 from "../../../assets/portfolio/newTask.jpg"
 const ModernR = () => {
     return (
         <section className="robotirl section">
-            <div className="prj__container container grid">
+            <div className="prj__container container">
                 <div className="prj__content">
                     <a href="https://github.com/ikn1062/ME449-Modern-Robotics/tree/main" className="prj__title-link" target="_blank">
                         <h1 className="prj__title mr__title">Robot Trajectory Planning and Control
@@ -43,7 +43,7 @@ const ModernR = () => {
                     simulated in a CoppeliaSim environment. 
                     </p>
                     
-                    <iframe width="720" height="480" className="prj__video-main" allowFullScreen
+                    <iframe className="prj__video-main" allowFullScreen
                         src="https://youtube.com/embed/e5av3XeAHtw">
                     </iframe>
 
@@ -92,7 +92,7 @@ const ModernR = () => {
                         <div className="prj__halfimg">
                             <img src={Img1} alt="Large Image"/>
                         </div> 
-                        <iframe width="480" height="360" allowFullScreen
+                        <iframe allowFullScreen className="prj__video-half"
                             src="https://youtube.com/embed/XbUbHDFP81k">
                         </iframe>
                     </div>
@@ -102,7 +102,7 @@ const ModernR = () => {
                         <div className="prj__halfimg">
                             <img src={Img2} alt="Large Image"/>
                         </div> 
-                        <iframe width="480" height="360" allowFullScreen
+                        <iframe allowFullScreen className="prj__video-half"
                             src="https://youtube.com/embed/jEHLQUxEQ1A">
                         </iframe>
                     </div>

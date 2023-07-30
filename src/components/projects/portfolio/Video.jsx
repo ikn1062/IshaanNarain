@@ -6,7 +6,7 @@ import Img1 from "../../../assets/portfolio/zoom.jpg"
 const Video = () => {
     return (
         <section className="robotirl section">
-            <div className="prj__container container grid">
+            <div className="prj__container container">
                 <div className="prj__content">
                     <a href="https://github.com/ikn1062/video_analysis" className="prj__title-link" target="_blank">
                         <h1 className="prj__title video__title">Zoom/Owl Video Data App
@@ -51,7 +51,7 @@ const Video = () => {
                     Multiprocessing of multiple videos at a time, and multithreading of read/write I/O operations. 
                     </p>
 
-                    <iframe width="720" height="480" className="prj__video-main" allowFullScreen
+                    <iframe className="prj__video-main" allowFullScreen
                         src="https://youtube.com/embed/QuUNvb6QhP8">
                     </iframe>
 

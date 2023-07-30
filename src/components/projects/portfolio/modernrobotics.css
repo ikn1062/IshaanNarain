@@ -14,3 +14,42 @@
     height: 100%;
     width: 95%;
 } 
+
+@media screen and (max-width: 992px) {
+    .mr__title::before {
+        width: 485px;
+        height: 25%;
+        bottom: 5px;
+    }
+
+    .mr__title:hover::before {
+        width: 60%;
+        height: 100%;
+        bottom: 5px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .mr__title::before {
+        width: 485px;
+        height: 25%;
+        bottom: 5px;
+    }
+
+    .mr__title:hover::before {
+        width: 75%;
+        height: 100%;
+        bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .mr__title::before {
+        width: 0px;
+    }
+
+    .mr__title:hover::before {
+        width: 0px;
+    }
+}

@@ -141,6 +141,14 @@
     .project__img_2 {
         width: 100%;
     }
+
+    .project__card {
+        margin: 0 auto;
+    }
+
+    .projectlist__item {
+        padding: 0.25rem 0.5rem;
+    }
 }
 
 @media screen and (max-width: 350px) {

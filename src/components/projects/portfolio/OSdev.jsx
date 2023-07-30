@@ -5,7 +5,7 @@ import "./osdev.css"
 const OSdev = () => {
     return (
         <section className="robotirl section">
-            <div className="prj__container container grid">
+            <div className="prj__container container">
                 <div className="prj__content">
                     <a href="https://github.com/ikn1062/ishaanOS" className="prj__title-link" target="_blank">
                         <h1 className="prj__title os__title">Operating System Development

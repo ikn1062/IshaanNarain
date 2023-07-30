@@ -14,3 +14,42 @@
     height: 100%;
     width: 55%;
 } 
+
+@media screen and (max-width: 992px) {
+    .slam__title::before {
+        width: 275px;
+        height: 25%;
+        bottom: 5px;
+    }
+
+    .slam__title:hover::before {
+        width: 40%;
+        height: 100%;
+        bottom: 5px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .slam__title::before {
+        width: 275px;
+        height: 25%;
+        bottom: 5px;
+    }
+
+    .slam__title:hover::before {
+        width: 60%;
+        height: 100%;
+        bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .slam__title::before {
+        width: 0px;
+    }
+
+    .slam__title:hover::before {
+        width: 0px;
+    }
+}

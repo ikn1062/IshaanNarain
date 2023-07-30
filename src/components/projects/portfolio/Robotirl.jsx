@@ -5,7 +5,7 @@ import Img1 from "../../../assets/example.jpg"
 const Robotirl = () => {
     return (
         <section className="robotirl section">
-            <div className="prj__container container grid">
+            <div className="prj__container container">
                 <div className="prj__content">
                     <a href="https://github.com/" className="prj__title-link" target="_blank">
                         <h1 className="prj__title">TITLE HERE</h1>

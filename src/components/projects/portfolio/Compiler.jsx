@@ -5,7 +5,7 @@ import "./compiler.css"
 const Compiler = () => {
     return (
         <section className="robotirl section">
-            <div className="prj__container container grid">
+            <div className="prj__container container">
                 <div className="prj__content">
                     <a href="https://github.com/ikn1062/" className="prj__title-link" target="_blank">
                         <h1 className="prj__title compiler__title">Compiler Construction
@@ -14,7 +14,7 @@ const Compiler = () => {
                     </a>
 
                     <p className="prj__description">Developing interpreters and compilers</p>
-                    <div className="prj__tags">
+                     <div className="prj__tags">
                         <div className="prj__tags-content">
                             <p className="prj__tags-text">C</p>
                         </div>

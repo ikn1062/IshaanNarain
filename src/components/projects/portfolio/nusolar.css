@@ -14,3 +14,42 @@
     height: 100%;
     width: 50%;
 } 
+
+@media screen and (max-width: 992px) {
+    .solar__title::before {
+        width: 250px;
+        height: 25%;
+        bottom: 5px;
+    }
+
+    .solar__title:hover::before {
+        width: 40%;
+        height: 100%;
+        bottom: 5px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .solar__title::before {
+        width: 250px;
+        height: 25%;
+        bottom: 5px;
+    }
+
+    .solar__title:hover::before {
+        width: 60%;
+        height: 100%;
+        bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .solar__title::before {
+        width: 0px;
+    }
+
+    .solar__title:hover::before {
+        width: 0px;
+    }
+}

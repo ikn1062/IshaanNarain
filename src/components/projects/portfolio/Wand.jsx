@@ -7,7 +7,7 @@ import Img2 from "../../../assets/portfolio/wandlayout.jpg"
 const Wand = () => {
     return (
         <section className="robotirl section">
-            <div className="prj__container container grid">
+            <div className="prj__container container">
                 <div className="prj__content">
                     <a href="https://www.mccormick.northwestern.edu/news/articles/2022/06/design-studio-students-show-off-high-performance-robots/" className="prj__title-link" target="_blank">
                         <h1 className="prj__title wand__title">Haptic VR Wand
@@ -51,7 +51,7 @@ const Wand = () => {
                     to permit a wide range of interactions such as drawing on a whiteboard, striking a drum, or picking up an object.
                     </p>
                     
-                    <iframe width="720" height="480" className="prj__video-main" allowFullScreen
+                    <iframe className="prj__video-main" allowFullScreen
                         src="https://www.youtube.com/embed/i6scs-oscvs">
                     </iframe>
 
@@ -69,12 +69,12 @@ const Wand = () => {
                             Moreover, errors in positions from Unity were corrected by motor encoder readings.
                             </p> 
                         </div>
-                        <iframe width="480" height="360" allowFullScreen
+                        <iframe allowFullScreen className="prj__video-half"
                             src="https://youtube.com/embed/KRQoTR1Gi30">
                         </iframe>
                     </div>
 
-                    <img src={Img1} alt="Large Image" className="wand__img" />
+                    <img src={Img1} alt="Large Image" className="prj__img-large" />
 
                     <h3 className="prj__subtitle">Electronic Design</h3>
 
