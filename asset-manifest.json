@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/IshaanNarain/static/css/main.c6d37cef.css",
-    "main.js": "/IshaanNarain/static/js/main.e60ebbbb.js",
+    "main.css": "/IshaanNarain/static/css/main.26e85ba2.css",
+    "main.js": "/IshaanNarain/static/js/main.c2d75820.js",
+    "static/media/modernr-1.gif": "/IshaanNarain/static/media/modernr-1.ab30e4046ba6db7db070.gif",
     "static/media/example.jpg": "/IshaanNarain/static/media/example.274bfbf60180c2225b2e.jpg",
     "static/media/os-1.jpg": "/IshaanNarain/static/media/os-1.ed267714c62be17d372b.jpg",
     "static/media/nusolar-1.jpg": "/IshaanNarain/static/media/nusolar-1.827f936ebc08845492cb.jpg",
     "static/media/nusolar-2.jpg": "/IshaanNarain/static/media/nusolar-2.ad8ca36f0104e2d27e64.jpg",
     "static/media/os-2.jpg": "/IshaanNarain/static/media/os-2.8e46bde6e9eddd2b6ca1.jpg",
     "static/media/ishaan-4.jpg": "/IshaanNarain/static/media/ishaan-4.e5498e417be026241af6.jpg",
+    "static/media/wandctrls.jpg": "/IshaanNarain/static/media/wandctrls.aa285fe8bf6e7b8225fe.jpg",
     "static/media/slam-1.jpg": "/IshaanNarain/static/media/slam-1.a478386caf7084f6e825.jpg",
     "static/media/haptic-1.jpg": "/IshaanNarain/static/media/haptic-1.ab1b7daff6dca1d9acf4.jpg",
     "static/media/haptic-2.jpg": "/IshaanNarain/static/media/haptic-2.71e015c488760b9922f3.jpg",
@@ -17,18 +19,24 @@
     "static/media/ishaan-narain-resume.pdf": "/IshaanNarain/static/media/ishaan-narain-resume.947b48b4287b108d6455.pdf",
     "static/media/slam-2.jpg": "/IshaanNarain/static/media/slam-2.3df4a6e400668aded631.jpg",
     "static/media/compiler-2.jpg": "/IshaanNarain/static/media/compiler-2.d7797ac7bbbeb0e1c258.jpg",
+    "static/media/zoom.jpg": "/IshaanNarain/static/media/zoom.7b823c9db7cd704a08ad.jpg",
     "static/media/ishaan-3.jpg": "/IshaanNarain/static/media/ishaan-3.27a7c7d5b206c5178436.jpg",
+    "static/media/modernr-2.jpg": "/IshaanNarain/static/media/modernr-2.6e8cb973047a9d192ac0.jpg",
     "static/media/mmap-2.jpg": "/IshaanNarain/static/media/mmap-2.1a628b2100e530dd7aef.jpg",
     "static/media/ergodic-2.jpg": "/IshaanNarain/static/media/ergodic-2.6f1ae08cef789f3d1bae.jpg",
     "static/media/mmap-1.jpg": "/IshaanNarain/static/media/mmap-1.009bf21586511a497f10.jpg",
+    "static/media/newTask.jpg": "/IshaanNarain/static/media/newTask.9ad2233f03dbb4baaa17.jpg",
     "static/media/video-1.jpg": "/IshaanNarain/static/media/video-1.ac06c41a9555938d51f0.jpg",
+    "static/media/overshoot.jpg": "/IshaanNarain/static/media/overshoot.5a46448e13f89a186e8f.jpg",
+    "static/media/landmark.jpg": "/IshaanNarain/static/media/landmark.5250c305ac720e329eff.jpg",
     "static/media/video-2.jpg": "/IshaanNarain/static/media/video-2.d8ce34a1878f8289a2f5.jpg",
+    "static/media/wandlayout.jpg": "/IshaanNarain/static/media/wandlayout.f8b705de9b9391857154.jpg",
     "index.html": "/IshaanNarain/index.html",
-    "main.c6d37cef.css.map": "/IshaanNarain/static/css/main.c6d37cef.css.map",
-    "main.e60ebbbb.js.map": "/IshaanNarain/static/js/main.e60ebbbb.js.map"
+    "main.26e85ba2.css.map": "/IshaanNarain/static/css/main.26e85ba2.css.map",
+    "main.c2d75820.js.map": "/IshaanNarain/static/js/main.c2d75820.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6d37cef.css",
-    "static/js/main.e60ebbbb.js"
+    "static/css/main.26e85ba2.css",
+    "static/js/main.c2d75820.js"
   ]
 }
