@@ -127,6 +127,8 @@
 
     .prj__text-image {
         grid-template-columns: repeat(1, 1fr);
+        column-gap: 0rem;
+        row-gap: 1rem;
         margin: 0 3rem;
     }
 
@@ -177,7 +179,7 @@
     }
     
     .prj__text-image {
-        margin: 0 0rem;
+        margin: 0 1rem;
     }
 
     .prj__video-half {

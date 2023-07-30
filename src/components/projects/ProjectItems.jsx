@@ -3,7 +3,7 @@ import { ProjectsData, ProjectsNav } from "./Data"
 
 const ProjectItems = ({item}) => {
     return (
-        <a href={item.link} className="project__card-link">
+        <a href={item.link} className="project__card-link" target="_blank">
         <div className="project__card" key={item.id} >
             <img src={item.image} alt='' className="project__img"></img>
             <img src={item.image2} alt='' className="project__img_2"></img>
