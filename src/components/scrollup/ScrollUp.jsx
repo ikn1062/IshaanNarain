@@ -12,7 +12,7 @@ const ScrollUp = () => {
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
           }
     return (
-        <a href="/IshaanNarain/#/#" className="scrollup">
+        <a href="/IshaanNarain/#" className="scrollup">
             <i className="uil uil-arrow-up scrollup__icon"></i>
         </a>
     )

@@ -7,7 +7,7 @@ import Technologies from "./Technologies";
 
 const Skills = () => {
     return (
-        <section className="skills section" id="skills">
+        <section className="skills section" id="/#skills">
             <h2 className="section__title skills__title-start">Skills</h2>
             {/* <span className="section__subtitle">What I can do</span> */}
 

@@ -15,7 +15,7 @@ const Experience = () => {
         setToggleStateExp(index);
     }
     return (
-    <section>
+    <section id="/#experience">
         <h2 className="section__title experience__title-start">Experience</h2>
         {/* <span className="section__subtitle">My Personal Journey</span> */}
 
