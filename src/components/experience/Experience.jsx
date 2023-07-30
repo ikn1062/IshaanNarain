@@ -191,7 +191,7 @@ const Experience = () => {
                     <div className="experience__data">
                         <div>
                             <h3 className="experience__title">NU Center For Deep Learning</h3>
-                            <span className="experience__subtitle">Machine Learning & MLOps Researcher</span>
+                            <span className="experience__subtitle">Machine Learning & MLOps Researcher @ DELOS</span>
                             <span className="exp__button" onClick={() => toggleTabExp(3)}>View More
                                 <i className="uil uil-arrow-right exp__button-icon"></i>
                             </span>

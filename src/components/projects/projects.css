@@ -34,6 +34,7 @@
     border: 1px solid var(--body-color);
     padding: 1.2rem;
     border-radius: 1rem;
+    width: 400px;
 }
 
 .project__card:hover {
@@ -84,6 +85,7 @@
 }
 
 .project__button {
+    margin-top: var(--mb-0-5);
     color: var(--text-color);
     font-size: var(--small-font-size);
     display: flex;
@@ -112,6 +114,7 @@
 
     .project__card {
         padding: 1rem;
+        width: 325px;
     }
 
     .project__img {

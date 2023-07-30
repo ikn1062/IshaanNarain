@@ -14,6 +14,8 @@ import Img7 from "../../assets/os-1.jpg"
 import Img72 from "../../assets/os-2.jpg"
 import Img8 from "../../assets/compiler-1.jpg"
 import Img82 from "../../assets/compiler-2.jpg"
+import Img9 from "../../assets/modernr-1.gif"
+import Img92 from "../../assets/modernr-2.jpg"
 
 
 export const ProjectsData = [
@@ -21,7 +23,7 @@ export const ProjectsData = [
         id: 1,
         image: Img12,
         image2: Img1,
-        title: 'Statistical RL in Robotics ',
+        title: 'Statistical RL in Robotics - Ongoing',
         tags: 'C++, STL, CMake, ROS2, ML, Control, Linear Alg',
         category: 'Robotics, Machine Learning',
         link: "https://github.com/ikn1062/roboti-irl/",
@@ -88,7 +90,16 @@ export const ProjectsData = [
         tags: 'C, i386-elf, GCC, GDB, stdlib',
         category: 'Computer Systems',        
         link: "/IshaanNarain/#projects-id",
-    },  
+    },
+    {
+        id: 9,
+        image: Img92,
+        image2: Img9,
+        title: 'Robot Planning and Control',
+        tags: 'Python, NumPy, Control Theory, Dynamics',
+        category: 'Robotics',
+        link: "/IshaanNarain/modernr",
+    },   
 ]
 
 export const ProjectsNav = [

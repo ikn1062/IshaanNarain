@@ -11,7 +11,8 @@ import ScrollUp from './components/scrollup/ScrollUp';
 import Projects from './components/projects/Projects';
 import { Routes, Route } from 'react-router-dom';
 import Main from './Main';
-import Robotirl from './components/projects/robotirl/Robotirl';
+import Robotirl from './components/projects/portfolio/Robotirl';
+import ModernR from './components/projects/portfolio/ModernRobotics';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route exact path="/projects" element={<Projects/>} />
         <Route exact path="/" element={<Main/>} />
         <Route exact path="/robotirl" element={<Robotirl/>} />
+        <Route exact path="/modernr" element={<ModernR/>} />
       </Routes>
     </main>
     <Footer />

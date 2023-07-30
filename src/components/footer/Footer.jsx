@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
 
                 <span className="footer__copy">
-                    &#169; Ishaan Narain. Aspiring Software Engineer.
+                    &#169; Ishaan Narain. All Rights Reserved.
                 </span>
             </div>
         </footer>
