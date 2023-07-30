@@ -35,7 +35,7 @@ export const ProjectsData = [
         title: 'TurtleBot3 EKF SLAM',
         tags: 'C++, ROS2, ML, CMake, Catch2',
         category: 'Robotics, Machine Learning',
-        link: "/IshaanNarain/slam",
+        link: "/IshaanNarain/#/slam",
     },
     {
         id: 3,
@@ -44,7 +44,7 @@ export const ProjectsData = [
         title: 'Zoom / Owl Videa Data Analysis',
         tags: 'Python3, OpenCV, Mediapipe, Slurm',
         category: 'Machine Learning',
-        link: "/IshaanNarain/video",
+        link: "/IshaanNarain/#/video",
     },
     {
         id: 4,
@@ -53,7 +53,7 @@ export const ProjectsData = [
         title: 'Haptic Virtual Reality Wand',
         tags: 'Embedded C, C#, Unity, UART, Mechatronics',
         category: 'Robotics',
-        link: "/IshaanNarain/wand",
+        link: "/IshaanNarain/#/wand",
     },
     {
         id: 5,
@@ -62,7 +62,7 @@ export const ProjectsData = [
         title: 'Northwestern University Solar Car',
         tags: 'Matlab, Mechanical Design, Project Management',
         category: 'none',
-        link: "/IshaanNarain/nusolar",
+        link: "/IshaanNarain/#/nusolar",
     },
     {
         id: 6,
@@ -71,7 +71,7 @@ export const ProjectsData = [
         title: 'Linux Custom Memory Management - Ongoing',
         tags: 'C, x86, Linux Kernel, GDB, QEMU, Memory',
         category: 'Computer Systems',
-        link: "/IshaanNarain/memory",
+        link: "/IshaanNarain/#/memory",
     }, 
     {
         id: 7,
@@ -80,7 +80,7 @@ export const ProjectsData = [
         title: 'Compiler Construction Projects - Ongoing',
         tags: 'C, C++, Compiler, SQL',
         category: 'Computer Systems',        
-        link: "/IshaanNarain/compiler",
+        link: "/IshaanNarain/#/compiler",
     }, 
     {
         id: 8,
@@ -89,7 +89,7 @@ export const ProjectsData = [
         title: 'Mini Operating System - Ongoing',
         tags: 'C, ARM64, x86-64, GCC, GDB, stdlib',
         category: 'Computer Systems',        
-        link: "/IshaanNarain/osdev",
+        link: "/IshaanNarain/#/osdev",
     },
     {
         id: 9,
@@ -98,7 +98,7 @@ export const ProjectsData = [
         title: 'Robot Planning and Control',
         tags: 'Python, NumPy, Control Theory, Dynamics',
         category: 'Robotics',
-        link: "/IshaanNarain/modernr",
+        link: "/IshaanNarain/#/modernr",
     },   
 ]
 
