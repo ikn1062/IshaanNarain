@@ -1,0 +1,29 @@
+.wand__title::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    width: 33%;
+    height: 20%;
+    transition: all .3s ease-in-out;
+}
+
+.wand__title:hover::before {
+    bottom: 10px;
+    height: 100%;
+    width: 40%;
+}
+
+.wand__img {
+    width: 800px;
+    margin: 0 8rem;
+    border: 1px solid var(--title-color);
+}
+
+@media screen and (max-width: 992px) {
+    .wand__img {
+        width: 500px;
+        /* margin: 0 10rem; */
+    } 
+}

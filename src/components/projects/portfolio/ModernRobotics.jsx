@@ -10,7 +10,9 @@ const ModernR = () => {
             <div className="prj__container container grid">
                 <div className="prj__content">
                     <a href="https://github.com/ikn1062/ME449-Modern-Robotics/tree/main" className="prj__title-link" target="_blank">
-                        <h1 className="prj__title mr__title">Robot Trajectory Planning and Control</h1>
+                        <h1 className="prj__title mr__title">Robot Trajectory Planning and Control
+                            <i className="bx bx-right-arrow-alt prj__button-icon"></i>
+                        </h1>
                     </a>
                     <p className="prj__description">Kuka Youbot Motion Planning Simulation and Control</p>
                     <div className="prj__tags">
@@ -41,7 +43,7 @@ const ModernR = () => {
                     simulated in a CoppeliaSim environment. 
                     </p>
                     
-                    <iframe width="720" height="480" className="prj__video-main"
+                    <iframe width="720" height="480" className="prj__video-main" allowFullScreen
                         src="https://youtube.com/embed/e5av3XeAHtw">
                     </iframe>
 
@@ -90,7 +92,7 @@ const ModernR = () => {
                         <div className="prj__halfimg">
                             <img src={Img1} alt="Large Image"/>
                         </div> 
-                        <iframe width="480" height="360"
+                        <iframe width="480" height="360" allowFullScreen
                             src="https://youtube.com/embed/XbUbHDFP81k">
                         </iframe>
                     </div>
@@ -100,7 +102,7 @@ const ModernR = () => {
                         <div className="prj__halfimg">
                             <img src={Img2} alt="Large Image"/>
                         </div> 
-                        <iframe width="480" height="360"
+                        <iframe width="480" height="360" allowFullScreen
                             src="https://youtube.com/embed/jEHLQUxEQ1A">
                         </iframe>
                     </div>

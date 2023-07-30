@@ -35,7 +35,7 @@ export const ProjectsData = [
         title: 'TurtleBot3 EKF SLAM',
         tags: 'C++, ROS2, ML, CMake, Catch2',
         category: 'Robotics, Machine Learning',
-        link: "https://github.com/ikn1062/turtlebot-slam/",
+        link: "/IshaanNarain/slam",
     },
     {
         id: 3,
@@ -44,7 +44,7 @@ export const ProjectsData = [
         title: 'Zoom / Owl Videa Data Analysis',
         tags: 'Python3, OpenCV, Mediapipe, Slurm',
         category: 'Machine Learning',
-        link: "https://github.com/ikn1062/video_analysis",
+        link: "/IshaanNarain/video",
     },
     {
         id: 4,
@@ -53,7 +53,7 @@ export const ProjectsData = [
         title: 'Haptic Virtual Reality Wand',
         tags: 'Embedded C, C#, Unity, UART, Mechatronics',
         category: 'Robotics',
-        link: "https://www.mccormick.northwestern.edu/news/articles/2022/06/design-studio-students-show-off-high-performance-robots/",
+        link: "/IshaanNarain/wand",
     },
     {
         id: 5,
@@ -62,7 +62,7 @@ export const ProjectsData = [
         title: 'Northwestern University Solar Car',
         tags: 'Matlab, Mechanical Design, Project Management',
         category: 'none',
-        link: "https://nusolar.org",
+        link: "/IshaanNarain/nusolar",
     },
     {
         id: 6,
@@ -71,7 +71,7 @@ export const ProjectsData = [
         title: 'Linux Custom Memory Management - Ongoing',
         tags: 'C, x86, Linux Kernel, GDB, QEMU, Memory',
         category: 'Computer Systems',
-        link: "/IshaanNarain/#projects-id",
+        link: "/IshaanNarain/memory",
     }, 
     {
         id: 7,
@@ -80,16 +80,16 @@ export const ProjectsData = [
         title: 'Compiler Construction Projects - Ongoing',
         tags: 'C, C++, Compiler, SQL',
         category: 'Computer Systems',        
-        link: "/IshaanNarain/#projects-id",
+        link: "/IshaanNarain/compiler",
     }, 
     {
         id: 8,
         image: Img72,
         image2: Img7,
         title: 'Mini Operating System - Ongoing',
-        tags: 'C, i386-elf, GCC, GDB, stdlib',
+        tags: 'C, ARM64, x86-64, GCC, GDB, stdlib',
         category: 'Computer Systems',        
-        link: "/IshaanNarain/#projects-id",
+        link: "/IshaanNarain/osdev",
     },
     {
         id: 9,

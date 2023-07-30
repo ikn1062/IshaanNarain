@@ -1,0 +1,16 @@
+.compiler__title::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    width: 46%;
+    height: 20%;
+    transition: all .3s ease-in-out;
+}
+
+.compiler__title:hover::before {
+    bottom: 10px;
+    height: 100%;
+    width: 65%;
+} 
