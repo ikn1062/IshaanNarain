@@ -3,6 +3,7 @@ import { ProjectsData, ProjectsNav } from "./Data"
 
 const ProjectItems = ({item}) => {
     return (
+        <a href={item.link} className="project__card-link">
         <div className="project__card" key={item.id} >
             <img src={item.image} alt='' className="project__img"></img>
             <img src={item.image2} alt='' className="project__img_2"></img>
@@ -12,6 +13,7 @@ const ProjectItems = ({item}) => {
                 <i className="bx bx-right-arrow-alt project__button-icon"></i>
             </a>
         </div>
+        </a>
     )
 }
 
