@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/IshaanNarain/static/css/main.67a05c34.css",
-    "main.js": "/IshaanNarain/static/js/main.32dbf165.js",
+    "main.js": "/IshaanNarain/static/js/main.854d91fb.js",
     "static/media/modernr-1.gif": "/IshaanNarain/static/media/modernr-1.ab30e4046ba6db7db070.gif",
     "static/media/example.jpg": "/IshaanNarain/static/media/example.274bfbf60180c2225b2e.jpg",
     "static/media/os-1.jpg": "/IshaanNarain/static/media/os-1.ed267714c62be17d372b.jpg",
@@ -33,10 +33,10 @@
     "static/media/wandlayout.jpg": "/IshaanNarain/static/media/wandlayout.f8b705de9b9391857154.jpg",
     "index.html": "/IshaanNarain/index.html",
     "main.67a05c34.css.map": "/IshaanNarain/static/css/main.67a05c34.css.map",
-    "main.32dbf165.js.map": "/IshaanNarain/static/js/main.32dbf165.js.map"
+    "main.854d91fb.js.map": "/IshaanNarain/static/js/main.854d91fb.js.map"
   },
   "entrypoints": [
     "static/css/main.67a05c34.css",
-    "static/js/main.32dbf165.js"
+    "static/js/main.854d91fb.js"
   ]
 }
