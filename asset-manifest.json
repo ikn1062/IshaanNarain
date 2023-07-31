@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/IshaanNarain/static/css/main.6f455c68.css",
-    "main.js": "/IshaanNarain/static/js/main.854d91fb.js",
+    "main.css": "/IshaanNarain/static/css/main.18838daa.css",
+    "main.js": "/IshaanNarain/static/js/main.dec47685.js",
     "static/media/modernr-1.gif": "/IshaanNarain/static/media/modernr-1.ab30e4046ba6db7db070.gif",
     "static/media/example.jpg": "/IshaanNarain/static/media/example.274bfbf60180c2225b2e.jpg",
     "static/media/os-1.jpg": "/IshaanNarain/static/media/os-1.ed267714c62be17d372b.jpg",
@@ -24,6 +24,7 @@
     "static/media/modernr-2.jpg": "/IshaanNarain/static/media/modernr-2.6e8cb973047a9d192ac0.jpg",
     "static/media/mmap-2.jpg": "/IshaanNarain/static/media/mmap-2.1a628b2100e530dd7aef.jpg",
     "static/media/ergodic-2.jpg": "/IshaanNarain/static/media/ergodic-2.6f1ae08cef789f3d1bae.jpg",
+    "static/media/fourier.jpg": "/IshaanNarain/static/media/fourier.44b8f8a2d20a7b4a6879.jpg",
     "static/media/mmap-1.jpg": "/IshaanNarain/static/media/mmap-1.009bf21586511a497f10.jpg",
     "static/media/newTask.jpg": "/IshaanNarain/static/media/newTask.9ad2233f03dbb4baaa17.jpg",
     "static/media/video-1.jpg": "/IshaanNarain/static/media/video-1.ac06c41a9555938d51f0.jpg",
@@ -32,11 +33,11 @@
     "static/media/video-2.jpg": "/IshaanNarain/static/media/video-2.d8ce34a1878f8289a2f5.jpg",
     "static/media/wandlayout.jpg": "/IshaanNarain/static/media/wandlayout.f8b705de9b9391857154.jpg",
     "index.html": "/IshaanNarain/index.html",
-    "main.6f455c68.css.map": "/IshaanNarain/static/css/main.6f455c68.css.map",
-    "main.854d91fb.js.map": "/IshaanNarain/static/js/main.854d91fb.js.map"
+    "main.18838daa.css.map": "/IshaanNarain/static/css/main.18838daa.css.map",
+    "main.dec47685.js.map": "/IshaanNarain/static/js/main.dec47685.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f455c68.css",
-    "static/js/main.854d91fb.js"
+    "static/css/main.18838daa.css",
+    "static/js/main.dec47685.js"
   ]
 }
