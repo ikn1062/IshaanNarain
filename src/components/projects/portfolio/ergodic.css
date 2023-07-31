@@ -1,0 +1,55 @@
+.slam__title::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    width: 50%;
+    height: 20%;
+    transition: all .3s ease-in-out;
+}
+
+.slam__title:hover::before {
+    bottom: 10px;
+    height: 100%;
+    width: 65%;
+} 
+
+@media screen and (max-width: 992px) {
+    .slam__title::before {
+        width: 320px;
+        height: 25%;
+        bottom: 5px;
+    }
+
+    .slam__title:hover::before {
+        width: 60%;
+        height: 100%;
+        bottom: 5px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .slam__title::before {
+        width: 320px;
+        height: 25%;
+        bottom: 5px;
+    }
+
+    .slam__title:hover::before {
+        width: 60%;
+        height: 100%;
+        bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .slam__title::before {
+        width: 0px;
+    }
+
+    .slam__title:hover::before {
+        width: 0px;
+    }
+}

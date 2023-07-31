@@ -26,7 +26,7 @@ export const ProjectsData = [
         title: 'Statistical RL in Robotics - Ongoing',
         tags: 'C++, STL, CMake, ROS2, ML, Control, Linear Alg',
         category: 'Robotics, Machine Learning',
-        link: "https://github.com/ikn1062/roboti-irl/",
+        link: "/IshaanNarain/#/ergodic",
     },
     {
         id: 2,

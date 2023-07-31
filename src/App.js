@@ -20,6 +20,7 @@ import Memory from './components/projects/portfolio/Memory';
 import NUsolar from './components/projects/portfolio/NUsolar';
 import Video from './components/projects/portfolio/Video';
 import Slam from './components/projects/portfolio/Slam';
+import Ergodic from './components/projects/portfolio/ergodic';
 
 const App = () => {
   return (
@@ -39,6 +40,7 @@ const App = () => {
         <Route exact path="/nusolar" element={<NUsolar/>} />
         <Route exact path="/video" element={<Video/>} />
         <Route exact path="/slam" element={<Slam/>} />
+        <Route exact path="/ergodic" element={<Ergodic/>} />
       </Routes>
     </main>
     <Footer />
