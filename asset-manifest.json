@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/IshaanNarain/static/css/main.18838daa.css",
-    "main.js": "/IshaanNarain/static/js/main.dec47685.js",
+    "main.css": "/IshaanNarain/static/css/main.d8003eaf.css",
+    "main.js": "/IshaanNarain/static/js/main.64517025.js",
     "static/media/modernr-1.gif": "/IshaanNarain/static/media/modernr-1.ab30e4046ba6db7db070.gif",
     "static/media/example.jpg": "/IshaanNarain/static/media/example.274bfbf60180c2225b2e.jpg",
     "static/media/os-1.jpg": "/IshaanNarain/static/media/os-1.ed267714c62be17d372b.jpg",
@@ -33,11 +33,11 @@
     "static/media/video-2.jpg": "/IshaanNarain/static/media/video-2.d8ce34a1878f8289a2f5.jpg",
     "static/media/wandlayout.jpg": "/IshaanNarain/static/media/wandlayout.f8b705de9b9391857154.jpg",
     "index.html": "/IshaanNarain/index.html",
-    "main.18838daa.css.map": "/IshaanNarain/static/css/main.18838daa.css.map",
-    "main.dec47685.js.map": "/IshaanNarain/static/js/main.dec47685.js.map"
+    "main.d8003eaf.css.map": "/IshaanNarain/static/css/main.d8003eaf.css.map",
+    "main.64517025.js.map": "/IshaanNarain/static/js/main.64517025.js.map"
   },
   "entrypoints": [
-    "static/css/main.18838daa.css",
-    "static/js/main.dec47685.js"
+    "static/css/main.d8003eaf.css",
+    "static/js/main.64517025.js"
   ]
 }
