@@ -31,7 +31,13 @@ const Compiler = () => {
                             <p className="prj__tags-text">Programming Languages</p>
                         </div>
                     </div>
-                    <h3 className="prj__subtitle">Project Overview</h3>
+                    <h3 className="prj__subtitle">Project Overview
+                    <br/>
+                    <a href="https://github.com/ikn1062/" className="prj__subtitle-link" target="_blank">
+                            Github Link {" "}
+                            <i class="uil uil-github-alt"></i>
+                    </a>
+                    </h3>
                     <p className="prj__body">
                     Learning how to create interpreters and compilers with the end goal of creating a source-to-source compiler from 
                     SQL to relational algebra. I am currently working through notes in <a href="https://craftinginterpreters.com/" className="prj__body-link" target="_blank">Crafting Interpreters</a> and <a href="https://www.cs.princeton.edu/~appel/modern/c/" className="prj__body-link" target="_blank">Modern Compiler Implementation in C</a>.

@@ -41,14 +41,22 @@ const Video = () => {
                             <p className="prj__tags-text">SciKit</p>
                         </div>
                     </div>
-                    <h3 className="prj__subtitle">Project Overview</h3>
+                    <h3 className="prj__subtitle">Project Overview
+                    <br/>
+                    <a href="https://github.com/ikn1062/video_analysis" className="prj__subtitle-link" target="_blank">
+                            Github Link {" "}
+                            <i class="uil uil-github-alt"></i>
+                    </a>
+                    </h3>
                     <p className="prj__body">
-                    Created a Zoom / Owl video data analysis tool for the Applied Mathematics department as part of research into 
-                    communication in scientific conferences. The tool uses Python OpenCV, Mediapipe, and audio identification to collect names, 
-                    faces, audio, and image data, and output the correct speaker at each timestep. The tool collects a number of datapoints at each
-                    timestep due to obfuscation of certain features (somebody wearing a mask), and then uses k-means clustering to match data collected
-                    from video frames to speakers. To improve computation speed, the project was run in the University Slurm computing cluster, with
-                    Multiprocessing of multiple videos at a time, and multithreading of read/write I/O operations. 
+                    Developed a data analysis tool utilizing Python's OpenCV, Mediapipe, and audio identification, 
+                    facilitating comprehensive Zoom/Owl video analysis for the Applied Mathematics department. 
+                    This tool efficiently extracts and aligns essential information – names, faces, audio, and images – 
+                    for accurate speaker identification at each time interval. To address challenges like obfuscated 
+                    features (e.g., masked individuals), k-means clustering was employed, correlating data from video 
+                    frames to speakers. To enhance efficiency, the project leveraged the University Slurm computing cluster, 
+                    incorporating Multiprocessing for simultaneous video analysis and multithreading to optimize read/write 
+                    I/O operations.
                     </p>
 
                     <iframe className="prj__video-main" allowFullScreen

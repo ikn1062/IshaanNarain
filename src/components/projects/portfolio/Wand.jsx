@@ -39,7 +39,13 @@ const Wand = () => {
                             <p className="prj__tags-text">Dynamics</p>
                         </div>
                     </div>
-                    <h3 className="prj__subtitle">Project Overview</h3>
+                    <h3 className="prj__subtitle">Project Overview
+                    <br/>
+                    <a href="https://www.mccormick.northwestern.edu/news/articles/2022/06/design-studio-students-show-off-high-performance-robots/" className="prj__subtitle-link" target="_blank">
+                            Project Demo Link {" "}
+                            <i class="uil uil-airplay"></i>
+                    </a>
+                    </h3>                    
                     <p className="prj__body">
                     Project manager and controls/electronics lead of the Haptic VR Wand team. Created a wearable device composed of a handheld
                     wand controller (the wand), an ergonomic device that attaches to the body (the brace), and a two- or three 

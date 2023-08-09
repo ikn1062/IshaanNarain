@@ -116,7 +116,7 @@ const Experience = () => {
                                 <ul className="exp__modal-exp grid">
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">Prototyping custom memory management Linux kernel module with theoretical 230% acceleration of databases</p>
+                                        <p className="exp__modal-info">Prototyping custom memory management Linux kernel module with theoretical 300% acceleration of databases</p>
                                     </li>
 
                                     <li className="exp__modal-exp">
@@ -126,11 +126,11 @@ const Experience = () => {
 
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">Porting floating-point virtual machine written in C from Linux 3.x to 5.19 and testing on Ubuntu QEMU </p>
+                                        <p className="exp__modal-info">Porting kernel modules in C from Linux 3.x to 5.19 and testing on Ubuntu QEMU </p>
                                     </li>
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">Researching and prototyping numerical and exception fuzzing tools</p>
+                                        <p className="exp__modal-info">Developing numeric and fuzzing tools to evaluate accuracy of floating-point arithmetic in chaotic systems with C++20, OpenMP, and CUDA</p>
                                     </li>
                                 </ul>
                             </div>
@@ -166,12 +166,12 @@ const Experience = () => {
                                 <ul className="exp__modal-exp grid">
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">Creating statistical reinforcement learning C++ library with optimal control for non-linear robotics applying ergodic theory</p>
+                                        <p className="exp__modal-info">Creating data-driven reinforcement learning C++ package with receding horizon iLQR control for robotics using ergodic theory</p>
                                     </li>
 
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
-                                        <p className="exp__modal-info">Validated demonstration-learning algorithm using 8 positive and 6 negative sample gaussians in dynamic ROS2 cartpole simulator</p>
+                                        <p className="exp__modal-info">Validated demonstration-learning algorithm with 8 positive and 6 negative sample gaussians in ROS2 ignition-gazebo Cart Pole simulation</p>
                                     </li>
 
                                     <li className="exp__modal-exp">
@@ -279,6 +279,10 @@ const Experience = () => {
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
                                         <p className="exp__modal-info">Resolved 3 display consumer issues by analyzing device registers on I2C and compiling 1000-hour data with multithreaded scripts</p>
                                     </li>
+                                    <li className="exp__modal-exp">
+                                        <i className="uil uil-check-circle exp__modal-icon"></i>
+                                        <p className="exp__modal-info">Increased thermal cycling testing capacity by 400% by debugging custom display development firmware using logic analyzers</p>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -363,6 +367,10 @@ const Experience = () => {
                                     <li className="exp__modal-exp">
                                         <i className="uil uil-check-circle exp__modal-icon"></i>
                                         <p className="exp__modal-info">Launched $1MM R&D line within 4 weeks by creating project plan and coordinating execution between team of 26 engineers</p>
+                                    </li>
+                                    <li className="exp__modal-exp">
+                                        <i className="uil uil-check-circle exp__modal-icon"></i>
+                                        <p className="exp__modal-info">Facilitated daily morning and evening meetings to track, prioritize, and drive actions of manufacturing, design, and NPI teams</p>
                                     </li>
                                 </ul>
                             </div>

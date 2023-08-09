@@ -41,29 +41,36 @@ const Ergodic = () => {
                             <p className="prj__tags-text">Optimization</p>
                         </div>
                     </div>
-                    <h3 className="prj__subtitle">Project Overview</h3>
+                    <h3 className="prj__subtitle">Project Overview
+                    <br/>
+                    <a href="https://github.com/ikn1062/roboti-irl/" className="prj__subtitle-link" target="_blank">
+                            Github Link {" "}
+                            <i class="uil uil-github-alt"></i>
+                    </a>
+                    </h3>
                     <p className="prj__body">
-                    The idea behind this project is that traditional robotic task learning methods like reinforcement learning take too much time and resources
-                    converge to a good control method for a simple task. Whereas, control methods need too much information about a system and require hypertuning
-                    of control gains.
+                    This project addresses the challenges of time-consuming and resource-intensive robotic task learning methods, 
+                    such as reinforcement learning, which struggle to time-efficiently achieve effective control. Meanwhile, traditional 
+                    control methods demand extensive system information and meticulous tuning of control gains.
                     <br/><br/>
-                    The idea behind this project is to create a ROS2 (Robot-OS) C++ package for model-free reinforcement learning of a task control problem
-                    for any dynamic robotic system. The current version of the project allows a system to learn what to do and what not to do from previous
-                    positive and negative demonstrations. The example below shows this working for an underactuated (rank of control vector is smaller than dimension of state vector variables)
-                    cartpole system, where the goal is to swing up the pole above the cart. The learning model successfully learns how to swing up the cartpole. 
+                    To tackle these issues, the project's core concept involves creating a ROS2 (Robot-OS) C++ package for model-free statistical
+                    reinforcement learning within dynamic robotic systems. The current version of the project enables systems 
+                    to learn what to do and what not to do from previous positive and negative demonstrations. An example 
+                    below shows this working for an underactuated (rank of control vector is smaller than dimension of state 
+                    vector variables) cartpole system, where the learning model successfully learns how to swing up the cartpole.
                     <br/>
                     <br/>
-                    This algorithm works by employing the idea of <a href="https://arxiv.org/abs/2103.17098" className="prj__body-link" target="_blank">Ergodic Imitation</a>, 
-                    where a sample of demonstrations (both positive and negative) are converted into a normalized gaussian around the state space by combining the trajectory
-                    signals into their fourier basis. The sample gaussian space has areas of high positivity, which the control algorithm optimizes over. The current control
-                    algorithm implemented uses iLQR targeting a final state after a given time horizon with costs on control and state vectors. 
+                    The approach employs <a href="https://arxiv.org/abs/2103.17098" className="prj__body-link" target="_blank">Ergodic Imitation</a>,
+                    where demonstrations (both positive and negative) are converted into a normalized Gaussian distribution within 
+                    the state space using a Fourier basis transformation of time-based trajectory signals. The algorithm then 
+                    optimizes control based on areas of high positivity in this distribution. The current control mechanism, 
+                    employing iLQR, targets a desired final state within a specified time horizon while considering costs on control 
+                    and state vectors.
                     <br/>
                     <br/>
-                    I'm currently working on integrating Koopman Operators into this project, to allow for true model-free learning. The use of Koopman operators allows for 
-                    a dynamic system model to be inferred from information gained about the model. 
-                    <br/>
-                    <br/>
-                    Link to the Github here: <a href="https://github.com/ikn1062/roboti-irl/" className="prj__body-link" target="_blank">LINK</a>. 
+                    Expanding the project's scope, I am in the process of integrating Koopman Operators to facilitate true model-free learning. 
+                    Incorporating Koopman operators enables the deduction of a dynamic system model from acquired information, enhancing the 
+                    versatility and efficiency of the learning process.
                     </p>
                     
                     <h3 className="prj__subtitle">Project Demonstrations</h3>

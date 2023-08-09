@@ -56,9 +56,21 @@
 .prj__subtitle {
     font-size: var(--h2-font-size);
     font-weight: var(--font-medium);
-    margin-bottom: var(--mb-0-25);
     margin-top: var(--mb-1-5);
     margin-bottom: var(--mb-1);
+}
+
+.prj__subtitle-link {
+    color: var(--title-color);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-normal);
+}
+
+.prj__subtitle-link:hover {
+    color: var(--title-color-dark);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi-bold);
+    text-decoration: underline;
 }
 
 .prj__subtitle-2 {

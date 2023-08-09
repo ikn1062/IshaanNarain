@@ -35,7 +35,13 @@ const ModernR = () => {
                             <p className="prj__tags-text">Robot Manipulation</p>
                         </div>  
                     </div>
-                    <h3 className="prj__subtitle">Project Overview</h3>
+                    <h3 className="prj__subtitle">Project Overview
+                    <br/>
+                    <a href="https://github.com/ikn1062/ME449-Modern-Robotics/tree/main" className="prj__subtitle-link" target="_blank">
+                            Github Link {" "}
+                            <i class="uil uil-github-alt"></i>
+                    </a>
+                    </h3>
                     <p className="prj__body">
                     Created a Python package which plans a trajectory for the end-effector of the Kuka Youbot mobile omnidirectional
                     robot with a manipulator. The goal of this project was to pick and place a small object from an initial location

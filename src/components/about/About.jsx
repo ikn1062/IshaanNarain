@@ -21,20 +21,18 @@ const About = () => {
                         and being an engineering lead at the Northwestern University Solar Car team, I decided to pursue an MS 
                         in Computer Science.
                         <br/><br/>
-                        Since then, I have worked on several machine learning, robotics, and computer systems projects. 
-                        I have engineered a statistical stress-testing module for neural networks and have presented it to
-                        NVIDIA at the Center for Deep Learning, as well as developed a geographical fire-risk 
-                        classifier at a startup. I have also completed a 3 month software/firmware internship at Tesla.
+                        Since then, I have worked on several impactful projects in machine learning, robotics, and computer systems. 
+                        Notably, I engineered a statistical stress-testing module for Neural Networks at the Center for Deep Learning
+                        and presented it to NVIDIA, as well as developed a geographical fire-risk  classifier at a startup. 
+                        I also completed a 3 month software and firmware internship at Tesla.
                         <br/><br/>
-                        Currently, I'm a Graduate Computer Systems Researcher at Northwestern's Prescience Lab, where I'm 
-                        working on software which accelerates database and HPC applications, compilers which 
-                        parallelize code, and modules that can assess risk in floating point computation. 
-                    
-                        I'm also developing a statistical reinforcement learning and control library for 
+                        Currently, I'm a Graduate Computer Systems Researcher at Northwestern's Prescience Lab. My focus includes 
+                        accelerating database and HPC applications, creating compilers targeting parallelization IRs, and risk assessment 
+                        modules for floating point computation. I'm also developing a statistical reinforcement learning and control library for 
                         autonomous robotics.
                         <br/><br/>
                         I am currently seeking full-time opportunities in quantitative finance, robotics, 
-                        and low-level software engineering starting Fall 2023 to Summer 2024.
+                        and software engineering starting Fall 2023 to Summer 2024.
                     </p>
 
                     <a download="" href={CV} className="about__button">Download Resume 

@@ -41,10 +41,16 @@ const Slam = () => {
                             <p className="prj__tags-text">Armadillo</p>
                         </div>
                     </div>
-                    <h3 className="prj__subtitle">Project Overview</h3>
+                    <h3 className="prj__subtitle">Project Overview
+                    <br/>
+                    <a href="https://github.com/ikn1062/turtlebot-slam/" className="prj__subtitle-link" target="_blank">
+                            Github Link {" "}
+                            <i class="uil uil-github-alt"></i>
+                    </a>
+                    </h3>
                     <p className="prj__body">
-                    This project involves the creation of a ROS2 C++ package for a Feature-based Extended Kalman Filter Simultaneous Localization and Mapping
-                    for a TurtleBot3 from scratch. The project is made up of 5 sub-packages created from scratch, nuturtle_description (used to visualize multiple
+                    This project involved the creation of a ROS2 C++ package for a Feature-based Extended Kalman Filter Simultaneous Localization and Mapping
+                    for a TurtleBot3 from scratch. The SLAM library is made up of 5 sub-packages created from scratch, including: nuturtle_description (used to visualize multiple
                     turtlebots in an RVIZ environment), turtlelib (functions to assist with kinematics of diff drive robots), nusim (simulation environment),
                     nucontrol (control of turtlebots in simulation and real world environments), and nuslam (SLAM integration).
                     <br/>

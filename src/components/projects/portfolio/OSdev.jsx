@@ -40,9 +40,15 @@ const OSdev = () => {
                             <p className="prj__tags-text">QEMU</p>
                         </div>
                     </div>
-                    <h3 className="prj__subtitle">Project Overview</h3>
+                    <h3 className="prj__subtitle">Project Overview
+                    <br/>
+                    <a href="https://github.com/ikn1062/ishaanOS" className="prj__subtitle-link" target="_blank">
+                            Github Link {" "}
+                            <i class="uil uil-github-alt"></i>
+                    </a>
+                    </h3>
                     <p className="prj__body">
-                    Learning how to develop a mini operating system for the ARM64 Computer Architecture using the OSdev wiki. I currently
+                    Learning how to develop a mini operating system for the x86-64 Computer Architecture using the OSdev wiki. I currently
                     have a simple skeleton of the OS created and will be posting updates on my development path here.
                     <br/>
                     <br/>

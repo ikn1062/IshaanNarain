@@ -45,17 +45,21 @@ const NUsolar = () => {
                     </div>
                     <h3 className="prj__subtitle">Project Overview</h3>
                     <p className="prj__body">
-                    From the start of my Freshman year to the end of my Junior year at Northwestern University, I was part of the NUsolar team.
-                    I became the lead mechanical engineer towards the end of my Sophmore year and the project manager of the 40-member team at 
-                    the start of my Junior year. During my time at NUsolar, I was responsible for the design and manufacture of upgraded parts 
-                    for the 7th generation solar car, the design of the 8th generation solar car, mentoring and teaching new members, 
-                    and communicaiton with the University offices and team sponsors.
+                    During my time at Northwestern University from Freshman to Senior year, I played an active role in the NUsolar team. 
+                    Starting as a mechanical/electrical engineer in my Freshamn year, becoming the lead mechanical engineer my Sophmore year,
+                    and the project manager of a 40-member team in my Junior year, I encountered and tackled many unique engineering and leadership challenges.
                     <br/>
                     <br/>
-                    Over the years I spent working at NUsolar, I developed technical engineering skills in Mechanical design, Eletrical design, and 
-                    manufacturing, including CAD/CAM (SolidWorks and Siemens NX), tolerencing, Matlab Simulink for vehicle dynamics, material structural
-                    analysis, PCB design, soldering/wiring, programming (CAN bus), and welding. I also developed communicaiton and leadership skills by teaching new members
-                    engineering skills, as well as project planning and delegation.
+                    At NUsolar, I was responsible for upgrading components for the 7th generation solar car, designing the 8th generation solar car, mentoring newcomers, 
+                    and liaising with both university offices and team sponsors. Over these years, I honed practical engineering skills in Mechanical and Electrical design, 
+                    as well as manufacturing techniques, spanning CAD/CAM (SolidWorks and Siemens NX), tolerancing, Matlab Simulink, material structural analysis, 
+                    PCB design, soldering/wiring, programming (CAN bus), and welding.
+                    <br/>
+                    <br/>
+                    In addition to my engineering contributions, I had to opportunity to mentor new members through learning and applying new engineering and manufacturing 
+                    concepts. This involved crafting leducational programs and workshops to gain technical skills, while creating networking opportunities with firms like 
+                    Molex and SpaceX. I also learned more about leadership in a technical environment, including communication and presentation techniques with team members
+                    and sponsors, project planning, and task delegation.
                     </p>
 
                     <iframe className="prj__video-main" allowFullScreen

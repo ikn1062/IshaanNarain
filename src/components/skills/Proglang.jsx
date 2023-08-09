@@ -14,7 +14,7 @@ const Proglang = () => {
 
                     <div>
                         <h3 className="skills__name">C++</h3>
-                        <span className="skills__level">STL, MPI, Eigen, Catch2</span>
+                        <span className="skills__level">STL, MPI, OpenMP, Eigen, Catch2</span>
                     </div>
                     </div>
 
@@ -32,6 +32,15 @@ const Proglang = () => {
 
                     <div>
                         <h3 className="skills__name">ASM(x86)</h3>
+                        <span className="skills__level"></span>
+                    </div>
+                    </div>
+
+                    <div className="skills__data">
+                        <i class='bx bx-badge-check'></i>
+
+                    <div>
+                        <h3 className="skills__name">CUDA</h3>
                         <span className="skills__level"></span>
                     </div>
                     </div>
@@ -66,6 +75,15 @@ const Proglang = () => {
                     </div>
                     </div>
 
+                    <div className="skills__data">
+                        <i class='bx bx-badge-check'></i>
+
+                    <div>
+                        <h3 className="skills__name">Racket</h3>
+                        <span className="skills__level"></span>
+                    </div>
+                    </div>
+                     
                 </div>
             </div>
         </div>
